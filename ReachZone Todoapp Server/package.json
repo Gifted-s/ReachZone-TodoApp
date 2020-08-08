@@ -1,0 +1,27 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "To make people keep track of their tasks",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Adewumi Sunkanmi <sunkanmiadewumi@gmail.com>",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "*",
+    "express": "^4.16.4",
+    "helmet": "^3.22.0",
+    "mongoose": "^5.9.7",
+    "is-valid-email": "*",
+    "swagger-jsdoc": "^3.5.0",
+    "swagger-ui-express": "^4.1.1",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
